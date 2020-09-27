@@ -22,7 +22,13 @@ public class LineComparsion {
     //Comparsion
     Double obj1=new Double(Line1);
     Double obj2=new Double(Line2);
+    boolean compare =obj1.equals(obj2);
     int compareValue =obj1.compareTo(obj2);
+    if(compare) {
+    	System.out.println("Both lines are equal");
+    }
+    else {
+    System.out.println("Both lines are not equal");}
     if(compareValue==1)
     { System.out.println("Line1 is greater than line2");}
     else if(compareValue==-1)
