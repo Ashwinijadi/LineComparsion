@@ -19,6 +19,14 @@ public class LineComparsion {
     Line2=Math.sqrt(((x4-x3)*(x4-x3)) + ((y4-y3)*(y4-y3)));
     System.out.println("Length of Line1:" +Line1);
     System.out.println("Length of Line2:" +Line2);
-	}
-	}
-   
+    //Comparsion
+    Double obj1=new Double(Line1);
+    Double obj2=new Double(Line2);
+    boolean compareValue =obj1.equals(obj2);
+    if(compareValue) {
+	System.out.println("Both lines are equal");
+      }
+    else {
+    System.out.println("Both lines are equal");}
+    }
+    }
